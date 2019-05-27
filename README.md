@@ -1,4 +1,4 @@
-# matlab-tools
+# Matlab tools
 
 **Function geologicCrossSection.m**<br/>
 This function creates geological cross-section from known interfaces of geological units.<br/>
