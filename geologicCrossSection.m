@@ -46,7 +46,6 @@ end
 
 data1=[];
 dmax=sqrt((dx/2)^2+(dy/2)^2); 
-length(yl)
 for i=1:length(yl) 
     d = sqrt((x-xl(i)).^2+(y-yl(i)).^2);
     mind=min(d);
