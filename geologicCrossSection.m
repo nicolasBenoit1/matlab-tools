@@ -17,8 +17,6 @@ function [xyz,gril] = geologicCrossSection(data,p1,p2,rgb,discretisation,window,
 % window: interface smoothing when > 1
 % base: minimum thickness of basal unit
 
-% e.g.: geologicCrossSection(data,[611650 4902550],[603250 4891850],rgb,200,2,30);
-
 %%
 x = data.XPT; 
 y = data.YPT;
