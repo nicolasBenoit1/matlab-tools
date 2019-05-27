@@ -125,6 +125,8 @@ for i=1:length(u)
 end
 xlim([min(p1(:,1)) max(p1(:,1))]);
 ylim([min(z1)-base max(z1)]);
+ylabel('Depth (m)')
+xlabel('Distance (m)')
 
 if j==1
     legend(pls,legendInfo,'location','northeastoutside'); 
