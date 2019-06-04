@@ -16,7 +16,7 @@ function [xyz,gril] = geologicCrossSection(data,p1,p2,rgb,discretisation,window,
 % code: rgb colour code (n units x 3) 
 % discretisation: resolution along x-coordinate
 % window: interface smoothing when > 1
-% base: minimum thickness of basal unit
+% base: minimum thickness of basal unit below the lower elevation
 
 
 %%
