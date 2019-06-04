@@ -10,12 +10,14 @@ function [xyz,gril] = geologicCrossSection(data,p1,p2,rgb,discretisation,window,
 %       ZPT: z coordinates
 %       SEQNUM: stratigraphic sequence number, 1 (top) to n (bottom) unit
 %       STRATUM: unit name, e.g., till
+%       THICK: thickness of units
 % p1: 1x2 xy coordinate for starting point of cross-section 
 % p2: 1x2 xy coordinate for ending point of cross-section 
 % code: rgb colour code (n units x 3) 
-% discretisation: number of points along cross-section
+% discretisation: resolution along x-coordinate
 % window: interface smoothing when > 1
 % base: minimum thickness of basal unit
+
 
 %%
 x = data.XPT; 
