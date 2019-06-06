@@ -137,3 +137,15 @@ function [m,b] = FindLineEquation(x1,y1,x2,y2)
 
 m = (y2 - y1) / (x2 - x1); 
 b = y1 - m*x1;
+
+function [gril,X,Y,nx,ny]=grille2(xmin,xmax,dx,ymin,ymax,dy);
+
+x=[xmin:dx:xmax]';
+y=[ymin:dy:ymax]';
+nx=length(x);
+ny=length(y);
+gril=[kron(ones(ny,1),x), kron(y,ones(nx,1))];
+X=reshape(gril(:,1),nx,ny)';
+yy=sortrows([(length(gril):-1:1)' gril(:,2)],1);
+Y=reshape(yy(:,2),nx,ny)';
+
