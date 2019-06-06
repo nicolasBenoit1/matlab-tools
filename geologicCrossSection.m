@@ -148,4 +148,3 @@ gril=[kron(ones(ny,1),x), kron(y,ones(nx,1))];
 X=reshape(gril(:,1),nx,ny)';
 yy=sortrows([(length(gril):-1:1)' gril(:,2)],1);
 Y=reshape(yy(:,2),nx,ny)';
-
