@@ -31,6 +31,7 @@ dx=ux(2)-ux(1);
 uy=unique(y);
 dy=uy(2)-uy(1);
 if dx~=dy
+    xyz=[];gril=[];
     disp('non-regular grid input')
     return
 end
