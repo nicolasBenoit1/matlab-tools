@@ -3,6 +3,7 @@ function [xyz,gril] = geologicCrossSection(data,p1,p2,rgb,discretisation,window,
 % Function creates geological cross-section from known interfaces of geological units
 % Author: Nicolas Benoit (2019), Geological Survey of Canada, nicolas.benoit@canada.ca
 % https://github.com/nicolasBenoit1/matlab-tools
+% version 0.1
 
 % input:
 % data (table format) = One interface for each unit on a regular grid with following attributes:
